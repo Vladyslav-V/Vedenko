@@ -1,0 +1,10 @@
+mkdir Vlad
+cd Vlad
+> new1
+> new2
+> new3
+> new4
+> new5
+date >> new1 | cp new1 new2 | cp new2 new3 | cp new3 new4 | cp new4 new5
+grep -ch 2017 new* | wc -l 
+rm -r Vlad
